@@ -1,10 +1,10 @@
-let home = document.getElementById("mainpage")
 let aba = document.getElementById("aba")
 function openaba(){
-    home.style.width = "70%"
-    aba.style.width = "30%"
+    aba.style.transform = "translateX(-235%)"
 }
 function closeaba(){
-    home.style.width = "100%"
-    aba.style.width = "0%"
+    aba.style.transform = "translateX(-400%)"
 }
+let tvalue = document.getElementById("tvalue")
+
+tvalue.innerText = (1546).toLocaleString('pt-br', {style: 'currency', currency: 'brl'})
